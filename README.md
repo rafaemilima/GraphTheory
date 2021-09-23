@@ -9,8 +9,11 @@ This repository concerns about the graph theory discipline algorithms required f
 
 ## Structure
 The main structure of this repository is: 
-* The .cpp code for each of the chosen algorithms.
-* The entry example for each algorithm. 
+* The directory for each algorith with:
+  * The .cpp code for each of the chosen algorithms.
+  * The input file for each algorithm.
+  * The makefile.
+  * 
 
 
 ## Algorithms
