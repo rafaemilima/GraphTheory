@@ -44,7 +44,7 @@ int shortestPath(int &n, vector<vector<pair<int, int>>> &graph, vector<int> &dis
 
 void dijkstra(vector<vector<pair<int, int>>> &graph, int m, int n)
 {
-    int u, v, peso, initial_vector, final_vector;
+    int u, v, weight, initial_vector, final_vector;
     vector<int> distance;
     vector<bool> visited;
     visited.resize(n);
