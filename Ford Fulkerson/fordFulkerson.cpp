@@ -11,7 +11,7 @@ struct FFgraph
 
 bool bfs(const FFgraph& my_graph, vector<vector<int>> res, int start_v, int destiny_v, int par[]){
 
-    int sfila;
+    int squeue;
     bool visited[my_graph.V];
     memset(visited, false, sizeof(bool) * my_graph.V);
     visited[start_v] = true;
@@ -19,12 +19,12 @@ bool bfs(const FFgraph& my_graph, vector<vector<int>> res, int start_v, int dest
     queue.push(start_v);
 
     while(!queue.empty()){
-        sfila = queue.front();
+        squeue = queue.front();
         queue.pop();
 
         for(int i = 0; i < my_graph.V; i++){
-            if(res[sfila][i] > 0 && !visited[i]){
-                par[i] = sfila;
+            if(res[squeue][i] > 0 && !visited[i]){
+                par[i] = squeue;
                 visited[i] = true;
                 queue.push(i);
             }
