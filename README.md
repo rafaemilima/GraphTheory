@@ -13,7 +13,6 @@ The main structure of this repository is:
   * The .cpp code for each of the chosen algorithms.
   * The input file for each algorithm.
   * The makefile.
-  * 
 
 
 ## Algorithms
