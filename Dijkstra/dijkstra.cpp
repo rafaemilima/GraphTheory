@@ -59,7 +59,7 @@ void dijkstra(vector<vector<pair<int, int>>> &graph, int m, int n)
 
     cin >> initial_vector >> final_vector;
 
-    cout << "The shortest distance between the vertices is " << shortestPath(n, graph, distance, visited, initial_vector, final_vector) << "\n";
+    cout << "The shortest distance between the vertices " << initial_vector <<" and " << final_vector<< " is " << shortestPath(n, graph, distance, visited, initial_vector, final_vector) << "\n";
 
 }
 
