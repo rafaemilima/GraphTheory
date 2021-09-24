@@ -78,7 +78,7 @@ int Kruskal(){
 
     cout << "\nEdges of the Spanning-Tree: \n";
     for(auto & i : spanningTree){
-        cout << i.second.first << ", " << i.second.second << "\n";
+        cout << "("<<i.second.first << ", " << i.second.second <<")\n";
     }
 
     return 0;
