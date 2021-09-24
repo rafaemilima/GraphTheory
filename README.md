@@ -45,6 +45,10 @@ For running Dijkistra Algorithm you locate its directory and execute the make fo
 #### Running with file input:
 For running Dijkistra Algorithm with our file example input, follow the steps above but in the call of the bin file, type `./dijkstra < your input file name`, so for our input example we have the following `./dijkstra < dijkstraInput`
 
+#### Output example
+Our output for Dijkstra Algorithm is a message saying the shortest distance between the two vectors informed.<br>
+`The shortest distance between the vertices 1 and 3 is 8`
+
 <hr>
 
 ### Ford Fulkerson Algorithm
@@ -66,6 +70,10 @@ For running Ford Fulkeron Algorithm you locate its directory and execute the mak
 
 #### Running with file input:
 For running Ford Fulkerson Algorithm with our file example input, follow the steps above but in the call of the bin file, type `./fordFulkerson < your input file name`, so for our input example we have the following command: `./fordFulkerson < fordFulkersonInput`
+
+#### Output example
+Our output for Ford Fulkerson Algorithm is a message saying the maximum flow between the input verticles at the last line of input.<br>
+`The maximum flow from vector 0 to vector 4 is: 7`
 
 <hr>
 
@@ -98,6 +106,19 @@ For running Kruskal Algorithm you locate its directory and execute the make for 
 #### Running with file input:
 For running Kruskal Algorithm with our file example input, follow the steps above but in the call of the bin file, type `./kruskal < your input file name`, so for our input example we have the following command: `./kruskal < kruskalInput`
 
+#### Output example
+Our output for Kruskal Algorithm is a message saying the the edges of our spanning tree formed from our graph, it's important say that those edges keep the same weight of the input.<br>
+```
+Edges of the Spanning-Tree:
+(3, 5)
+(0, 4)
+(1, 5)
+(1, 6)
+(0, 2)
+(0, 3)
+(4, 7)
+```
+
 <hr>
 
 ### Prim Algorithm
@@ -125,4 +146,19 @@ For running Prim Algorithm you locate its directory and execute the make for gen
 
 #### Running with file input:
 For running Kruskal Algorithm with our file example input, follow the steps above but in the call of the bin file, type `./prim < your input file name`, so for our input example we have the following command: `./prim < primInput`
+
+#### Output example
+Our output for Prim Algorithm is a message that shows the result of the algorithm aplied for each edge as a start point and after that the amount of the edges weights formed by the algorithm.<br>
+```
+Starting from vertex 0: 0
+Starting from vertex 1: 4
+Starting from vertex 2: 8
+Starting from vertex 3: 7
+Starting from vertex 4: 2
+Starting from vertex 5: 4
+Starting from vertex 6: 9
+Starting from vertex 7: 8
+Starting from vertex 8: 6
+total: 48
+```
 
