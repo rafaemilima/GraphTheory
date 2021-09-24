@@ -53,7 +53,7 @@ int my_prim(int n){
 
     for (int i = 0; i < n; i++) {
         result += weights[i];
-        cout << "Start vertex "<< i << ": "<< weights[i] << "\n";
+        cout << "Starting from vertex "<< i << ": "<< weights[i] << "\n";
     }
 
     return result;
@@ -72,7 +72,7 @@ int Prim()
         graph[v].emplace_back(weight, u);
     }
     int r = my_prim(n);
-    cout << "MST/AGM: "<< r << "\n";
+    cout << "total: "<< r << "\n";
 
     return 0;
 }
